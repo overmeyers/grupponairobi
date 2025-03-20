@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenya Charity Stream - Italiano</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kenya Charity Stream</h1>
+      <nav>
+        <a href="index.html">Torna alla Pagina Principale</a>
+        <a href="en.html">English</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Informazioni sul Progetto</h2>
+        <p>Kenya Charity Stream è un'iniziativa che riunisce persone di ogni estrazione sociale per sostenere eventi di beneficenza e progetti comunitari in Kenya. La nostra missione è quella di potenziare le comunità locali, promuovere lo sviluppo sostenibile e creare un impatto duraturo sulla vita di chi ha bisogno.</p>
+      </section>
+      <section>
+        <h2>Le Nostre Iniziative</h2>
+        <ul>
+          <li>Eventi di Raccolta Fondi</li>
+          <li>Programmi di Coinvolgimento della Comunità</li>
+          <li>Progetti per l'Istruzione e la Salute</li>
+          <li>Progetti di Sostenibilità Ambientale</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Kenya Charity Stream. Tutti i diritti riservati.</p>
+    </footer>
+  </div>
+</body>
+</html>
+

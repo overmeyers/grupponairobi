@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenya Charity Stream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kenya Charity Stream</h1>
+    </header>
+    <main>
+      <p>Welcome to Kenya Charity Stream, a project dedicated to making a positive impact in Kenya through charity events, community engagement, and sustainable initiatives.</p>
+      <p>Please choose your language:</p>
+      <div class="language-links">
+        <a href="en.html">English</a>
+        <a href="it.html">Italiano</a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Kenya Charity Stream. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
