@@ -3,29 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kenya Charity Stream</title>
+  <title>Gruppo Nairobi</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="lang-switcher">
-      <a href="it.html">Italiano</a>
+  <!-- Hero section with background image and Who We Are overlay -->
+  <header class="hero">
+    <nav class="top-nav">
+      <div class="nav-left">
+        <span class="association-name">GRUPPO NAIROBI</span>
+      </div>
+      <div class="nav-center">
+        <ul class="nav-menu">
+          <li><a href="#where">Where</a></li>
+          <li><a href="#why">Why</a></li>
+          <li><a href="#project-details">Project Details</a></li>
+          <li><a href="#our-appeal">Our Appeal</a></li>
+          <li><a href="#the-association">The Association</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a href="it.html" class="lang-link">Italiano</a>
+        <a href="https://www.gofundme.com/f/associazione-gruppo-nairobi" target="_blank" class="donate-btn">Donate</a>
+      </div>
+    </nav>
+    <div class="hero-overlay">
+      <div class="hero-text-container">
+        <h1 class="hero-association">GRUPPO NAIROBI</h1>
+        <h2>Who We Are</h2>
+        <p>Gruppo Nairobi is a dedicated non‑profit organization with a bold vision – to build an elementary school to offer quality education to children in need. Education is the key to a brighter future.</p>
+      </div>
     </div>
-    <h1>Kenya Charity Stream</h1>
   </header>
+
   <main>
-    <section id="who-we-are">
-      <h2>Who We Are</h2>
-      <p>Gruppo Nairobi is a dedicated non-profit organization with a bold vision – to build an elementary school comprising six classrooms to offer quality education to children facing severe economic challenges. Our mission stems from the firm belief that education is the cornerstone of development and that every child deserves the chance to build a brighter future.</p>
+    <!-- Where Section (image on right) -->
+    <section id="where" class="fold-section side-by-side reverse">
+      <div class="side-text">
+        <h2>Where</h2>
+        <p>The school will be built in Kenya, approximately 90 km from Nairobi, in the Municipality of Ngunga Paris within the Machakos District. Situated near the Tanzanian border, this region suffers from high poverty rates and limited access to quality educational facilities.</p>
+      </div>
+      <div class="side-image">
+        <img src="sources/map.jpeg" alt="Location Map">
+      </div>
     </section>
-    <section id="where">
-      <h2>Where</h2>
-      <p>The school will be built in Kenya, approximately 90 km from Nairobi, in the Municipality of Ngunga Paris within the Machakos District. Situated near the Tanzanian border, this region suffers from high poverty rates and limited access to quality educational facilities.</p>
+
+    <!-- Why Section (image on left) -->
+    <section id="why" class="fold-section side-by-side">
+      <div class="side-image">
+        <img src="sources/team.jpeg" alt="Team">
+      </div>
+      <div class="side-text">
+        <h2>Why</h2>
+        <p>The inspiration for this project came from Sister Hitha, a cherished mentor. Now in Kenya, she leads a dedicated team committed to providing educational opportunities for children who, due to financial hardships, cannot attend public schools.</p>
+      </div>
     </section>
-    <section id="why">
-      <h2>Why</h2>
-      <p>The inspiration for this project came from Sister Hitha, a cherished mentor and former school director with whom we have a long history – including our collaborative efforts in establishing a school in Kerala, India. Now in Kenya, Sister Hitha leads a dedicated team of Indian and Kenyan nuns committed to providing educational opportunities for children who, due to financial hardships, cannot attend public schools. Our initiative not only seeks to lift these children out of poverty through education but also aims to create local opportunities that help reduce illegal immigration.</p>
+
+    <!-- Project Details Section with Gallery (text on left; gallery on right) -->
+    <section id="project-details" class="fold-section">
+      <div class="project-details-content">
+        <div class="project-text">
+          <h2>Project Details</h2>
+          <p>The proposed primary school will feature six classrooms, built on land donated by a local congregation of nuns. An estimated investment of €180,000 is required. Your support is crucial to make this vision a reality.</p>
+        </div>
+        <div class="gallery">
+          <img src="sources/2d-face.jpeg" alt="Concept Image">
+          <img src="sources/plan.jpeg" alt="Blueprint Plan">
+          <img src="sources/render.jpeg" alt="Project Render">
+        </div>
+      </div>
     </section>
-    <section id="project-details">
-      <h2>Project Details</h2>
-    
+
+    <!-- Our Appeal Section (full-width text) -->
+    <section id="our-appeal" class="fold-section">
+      <h2>Our Appeal</h2>
+      <p>We are passionately committed to making this project a reality, but we cannot do it alone. Join us in building this school to provide education, hope, and a brighter future for countless children.</p>
+    </section>
+
+    <!-- The Association Section (image on right) -->
+    <section id="the-association" class="fold-section side-by-side reverse">
+      <div class="side-text">
+        <h2>The Association</h2>
+        <ul>
+          <li>President: Mazza Pierdomenico</li>
+          <li>Vice President: Abela Franco</li>
+          <li>Administrator: Rinaldi Mattia</li>
+        </ul>
+      </div>
+      <div class="side-image">
+        <img src="sources/2d-face.jpeg" alt="Association">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gruppo Nairobi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add a subtle grey background under the sticky menu after scrolling past the hero fold
+    window.addEventListener('scroll', function() {
+      const topNav = document.querySelector('.top-nav');
+      const heroHeight = document.querySelector('.hero').offsetHeight;
+      if (window.scrollY > heroHeight - 60) {
+        topNav.classList.add('scrolled');
+      } else {
+        topNav.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
