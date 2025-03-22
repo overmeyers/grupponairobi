@@ -105,9 +105,10 @@
     }
 
     h1 {
-        font-size: 11rem;
+        font-size: 10.0vmax;
         text-transform: uppercase;
-        line-height: 1;
+        line-height: 0.9;
+        margin-block-end: 2rem;
     }
 
     h2 {
@@ -147,7 +148,7 @@
     .grid {
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(auto-fill, minmax(45ch, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
 
     .top {
@@ -167,6 +168,7 @@
         display: flex;
         gap: 1.25rem;
         justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     nav a {
@@ -264,6 +266,7 @@
     .people div {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .people small {
