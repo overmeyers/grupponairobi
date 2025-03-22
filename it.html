@@ -1,126 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gruppo Nairobi</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" href="assets/favicon.png" sizes="32x32">
+    <link rel="alternate" hreflang="en" href="/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero section with background image and Chi Siamo overlay -->
-    <header class="hero">
-        <nav class="top-nav">
-            <div class="nav-left">
-                <span class="association-name">GRUPPO NAIROBI</span>
-            </div>
-            <div class="nav-center">
-                <div class="nav-menu">
-                    <div><a href="#where">Dove</a></div>
-                    <div><a href="#why">Perché</a></div>
-                    <div><a href="#project-details">Progetto Dettagli</a></div>
-                    <div><a href="#our-appeal">Il Nostro Appello</a></div>
-                    <div><a href="#the-association">L'Associazione</a></div>
-                </div>
-            </div>
-            <div class="nav-menu-right">
-                <div class="nav-menu">
-                    <div><a href="index.html" id="langBtn" class="lang-link">English</a></div>
-                    <div><a href="https://www.gofundme.com/f/associazione-gruppo-nairobi" id="donateBtn" target="_blank" class="donate-btn">Dona</a></div>
-                </div>
-            </div>
+    <a class="skip-to-main" href="#main">Vai al contenuto principale</a>
+    <header>
+        <div class="wrapper flow">
+        <nav>
+            <ul role="list">
+                <li><a href="#main">Ispirazione</a></li>
+                <li><a href="#project">Progetto</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#donate" class="menu-button">Donare</a></li>
+                <li><a href="/" title="Passa all'inglese">en →</a></li>
+            </ul>
         </nav>
+        <div class="headline">
+            <h1>Gruppo Nairobi</h1>
+            <p>Unisciti a noi in questo incredibile viaggio per costruire una scuola che offrirà istruzione, speranza e un futuro migliore a tanti bambini. Siamo profondamente impegnati a realizzare questo progetto, ma non possiamo farlo da soli. Il tuo supporto aiuterà a crescere la prossima generazione.</p>
+        </div>
+        <hr>
+        <picture class="hero">
+            <source srcset="assets/kenya.jpg" />
+            <img src="assets/kenya.jpg" alt="" />
+        </picture>
+    </div>
     </header>
-
-    <main id="main">
-        <section class="side-by-side">
-            <div class="hero-overlay">
-                <div class="hero-text-container">
-                    <h1 class="hero-association">GRUPPO NAIROBI</h1>
-                    <h2>Chi Siamo</h2>
-                    <p>Gruppo Nairobi è un'organizzazione non‑profit con la visione di costruire una scuola elementare per offrire un'istruzione di qualità ai bambini bisognosi. L'istruzione è la chiave per un futuro migliore.</p>
+    <main id="main" class="flow">
+        <section class="why">
+            <div class="wrapper columns">
+                <h2>Perché costruire una scuola in Kenya?</h2>
+                <p>L'ispirazione per questo progetto nasce da Suor Hitha, una mentore stimata e ex direttrice scolastica con cui abbiamo una lunga storia, inclusa la collaborazione per la fondazione di una scuola in Kerala, India. Ora in Kenya, Suor Hitha guida un team dedicato di suore indiane e keniote impegnate a offrire opportunità educative ai bambini che, a causa di difficoltà economiche, non possono frequentare le scuole pubbliche. La nostra iniziativa non solo mira a sottrarre questi bambini alla povertà attraverso l’istruzione, ma anche a creare opportunità locali per ridurre l’emigrazione illegale.</p>
+            </div>
+        </section>
+        <section id="project" class="detailed top">
+            <div class="wrapper flow">
+                <h2>Uno sguardo dettagliato al progetto</h2>
+                <p>Gruppo Nairobi sta costruendo una scuola primaria di alto livello nel cuore del Kenya, offrendo ai bambini un’istruzione di qualità che stimoli creatività e crescita. Con sei aule previste su un terreno donato, questa visione richiede €180.000 per diventare realtà. Il tuo supporto aiuterà a creare uno spazio dove le giovani menti possano prosperare.</p>
+            </div>
+        </section>
+        <section class="plan bottom">
+            <div class="wrapper flow">
+                <h2>Planimetrie e rendering</h2>
+                <div class="grid">
+                    <img src="assets/plan.jpeg" alt="La planimetria proposta della scuola" />
+                    <img src="assets/render.jpeg" alt="Un rendering della scuola che verrà costruita" />
+                    <img src="assets/map.jpeg" alt="Mappa che colloca il comune di Nganga in Kenya" />
+                    <p><span>La scuola sorgerà in Kenya, a circa 90 km da Nairobi, nel comune di Ngunga Paris, all'interno del distretto di Machakos. Situata vicino al confine con la Tanzania, questa regione è caratterizzata da un alto tasso di povertà e da un accesso limitato a strutture educative di qualità.</span></p>
                 </div>
             </div>
         </section>
-
-        <!-- Dove Section -->
-        <section id="where" class="fold-section side-by-side reverse">
-            <div class="side-text">
-                <h2>Dove</h2>
-                <p>La scuola verrà costruita in Kenya, a circa 90 km da Nairobi, nel Comune di Ngunga Paris, nel Distretto di Machakos. Situata vicino al confine con la Tanzania, questa regione presenta alti tassi di povertà e un accesso limitato a strutture educative di qualità.</p>
-            </div>
-            <div class="side-image">
-                <img src="sources/map.jpeg" alt="Mappa della posizione">
-            </div>
-        </section>
-
-        <!-- Perché Section -->
-        <section id="why" class="fold-section side-by-side">
-            <div class="side-image">
-                <img src="sources/team.jpeg" alt="Team">
-            </div>
-            <div class="side-text">
-                <h2>Perché</h2>
-                <p>L'ispirazione per questo progetto è arrivata da Sister Hitha, una stimata mentore. Attualmente in Kenya, guida un team dedicato che si impegna a fornire opportunità educative ai bambini che, a causa di difficoltà finanziarie, non possono frequentare le scuole pubbliche.</p>
-            </div>
-        </section>
-
-        <!-- Dettagli del Progetto Section with Gallery -->
-        <section id="project-details" class="fold-section side-by-side">
-            <div class="project-details-content">
-                <div class="side-text">
-                    <h2>Dettagli del Progetto</h2>
-                    <p>La scuola primaria proposta comprenderà sei aule, costruita su un terreno donato da una congregazione di suore. È necessario un investimento di €180.000. Il vostro sostegno è fondamentale per realizzare questa visione.</p>
-                </div>
-                <div class="gallery">
-                    <img src="sources/2d-face.jpeg" alt="Immagine Concettuale">
-                    <img src="sources/plan.jpeg" alt="Piano della scuola">
-                    <img src="sources/render.jpeg" alt="Render del progetto">
+        <section id="donate" class="donate">
+            <div class="wrapper flow">
+                <h2>Fai una donazione</h2>
+                <p>Abbraccia l'opportunità di trasformare delle vite. Che tu possa dare molto o poco, ogni centesimo conta. Insieme, possiamo influenzare il futuro dell'istruzione in Kenya. È il momento di fare un passo verso un'istruzione migliore, e tu puoi contribuire a realizzarlo con la tua generosa donazione.</p>
+                <div>
+                    <a class="primary-button" href="https://www.gofundme.com/f/associazione-gruppo-nairobi/donate?source=btn_donate">Donare</a>
+                    <a class="secondary-button" href="https://www.gofundme.com/f/associazione-gruppo-nairobi">Saperne di più</a>
                 </div>
             </div>
         </section>
-
-        <!-- Il Nostro Appello Section -->
-        <section id="our-appeal" class="fold-section side-by-side">
-            <h2>Il Nostro Appello</h2>
-            <p>Siamo impegnati a trasformare questo progetto in realtà, ma non possiamo farlo da soli. Unitevi a noi per costruire questa scuola e offrire istruzione, speranza e un futuro migliore a innumerevoli bambini.</p>
-        </section>
-
-        <!-- L'Associazione Section -->
-        <section id="the-association" class="fold-section side-by-side reverse">
-            <div class="side-text">
-                <h2>L'Associazione</h2>
-                <div class="side-list">
-                    <ul>
-                        <li>Presidente: Mazza Pierdomenico</li>
-                        <li>Vicepresidente: Abela Franco</li>
-                        <li>Amministratore: Rinaldi Mattia</li>
-                    </ul>
+        <section id="about" class="about">
+            <div class="wrapper flow">
+                <div class="columns">
+                    <h2>Sul Gruppo Nairobi</h2>
+                    <p>Siamo Gruppo Nairobi, un'organizzazione non-profit dedicata ad ampliare l'accesso all'istruzione per i bambini delle comunità svantaggiate. Guidati dalla convinzione che l'istruzione sia la chiave per lo sviluppo, lavoriamo per creare opportunità che responsabilizzino la prossima generazione. Con un forte impegno verso i valori comunitari, i nostri sforzi mirano a lasciare un impatto duraturo dove ce n'è più bisogno.</p>
+                </div>
+                <picture>
+                    <img src="assets/team.jpeg" alt="Sister Hitha with students and volunteers" />
+                </picture>
+                <div class="people flow">
+                    <h3>L'Associazione</h3>
+                    <div>
+                        <p>Pierdomenico Mazza<small>Presidente</small></p>
+                        <p>Franco Abela<small>Vicepresidente</small></p>
+                        <p>Mattia Rinaldi<small>Amministratore</small></p>
+                    </div>
                 </div>
             </div>
-            <div class="side-image">
-                <img src="sources/2d-face.jpeg" alt="Associazione">
-            </div>
         </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2025 Gruppo Nairobi. Tutti i diritti riservati.</p>
-        </footer>
-
-        <script>
-            // Add a subtle grey background under the sticky menu after scrolling past the hero fold
-            window.addEventListener('scroll', function () {
-                const topNav = document.querySelector('.top-nav');
-                const heroHeight = document.querySelector('.hero').offsetHeight;
-                const links = document.querySelectorAll('.nav-menu div a');
-                if (window.scrollY > heroHeight - 60) {
-                    topNav.classList.add('scrolled');
-                    links.forEach(link => link.classList.add('scrolled'));
-                } else {
-                    topNav.classList.remove('scrolled');
-                    links.forEach(link => link.classList.remove('scrolled'));
-                }
-            });
-        </script>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com" aria-label="Link a Facebook"><i class="facebook"></i></a>
+        <p>© 2025 Gruppo Nairobi. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>
